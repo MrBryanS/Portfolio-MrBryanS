@@ -1,6 +1,6 @@
 :root {
     font-size: 100px;
-    fontheight: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 * {
@@ -9,8 +9,12 @@
     font-size: 1rem;
 }
 
+
+
+
 body {
-    background-color: rgb(216, 221, 220);
+    background-color: rgb(176, 105, 58);
+    border: solid 15px orange;
 }
 
 
@@ -26,12 +30,7 @@ header {
     font-size: 1rem
 }
 
-@media screen and (min-width:768px) {
-    header h1 nav ul {
-        flex-direction: row;
-    }
 
-}
 
 /* .header h1 { */
 header h1 {
@@ -44,7 +43,7 @@ header h1 {
 header nav {
     border: solid 5px green;
     font-size: 1rem;
-    background-color:pink;
+    background-color: pink;
 }
 
 header nav ul {
@@ -52,12 +51,23 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
-    background-color:brown;
-    margin 20px;
+    background-color: brown;
+    margin: 20px;
 }
 
 header nav ul li {
-    list-style: none;
+    border: solid 5px green;
+    justify-content: space-between;
+    padding: .2rem;
+    background-color: brown;
+    margin: 20px;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    body h1 nav ul {
+        flex-direction: row;
+    }
 
 }
 
@@ -87,13 +97,12 @@ a {
 }
 
 p {
-    font-size: 3rem
-    rem;
+    font-size: 3rem rem;
 }
 
 .coolSubtitleHere {
     height: 750px;
-    background-color:purple;
+    background-color: purple;
     width: 100%;
     margin-bottom: 1rem;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -104,7 +113,7 @@ p {
 
 .aboutme {
     height: 500px;
-    background-color:green;
+    background-color: green;
     width: 100%;
     margin-bottom: 1rem;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -114,7 +123,7 @@ p {
 
 .work {
     height: 3500px;
-    background-color:purple;
+    background-color: purple;
     width: 100%;
     margin-bottom: .5rem;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -143,7 +152,7 @@ p {
 .workproject {
     background-color: yellow;
     width: 50%;
-    height 250px
+    height: 250px;
     border: solid;
     height: 500px;
     margin-bottom: .5rem;
@@ -152,14 +161,23 @@ p {
 
 .contactme {
     background-color: grey;
+    display:flex  ;
     width: 100%;
-    height 250px
+    height: 250px;
     border: solid;
     height: 500px;
     margin-bottom: .5rem;
 
 }
 
+.contactme ul {
+    border: solid 5px green;
+    justify-content: space-between;
+    padding: .2rem;
+    background-color: brown;
+    margin: 20px;
+    width: 100%;
+}
 
 
 .float-left {
