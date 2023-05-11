@@ -1,9 +1,11 @@
+:root {
+    font-size: 16px;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    font-size: 1000px
-    
+    font-size: 2rem;
 }
 
 body {
@@ -11,31 +13,52 @@ body {
 }
 
 /* .header { */
-    header {
+header {
+    display:flex ;
+    flex-direction: column;
+    border: solid 15px red;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #911a18;
-    background-color:#6dcecb;
-    font-size:50px}
+    background-color: #6dcecb;
+    font-size: 50px
+}
+
+@media screen and (min-width:768px){
+    header h1 nav ul {
+        flex-direction: row;
+    }
     
+}
 
 /* .header h1 { */
-    header h1 {
+header h1 {
+    border: solid 5px green;
     display: inline-block;
-    font-size:1000px 
-    48px;
+    font-size: 1000px 48px;
 }
 
-header h2 {
-    display: inline-block;
-    font-size: 
-    48px;
+header nav {
+    border: solid 5px green;
+    font-size: 48px;
 }
 
+header nav ul {
+    border: solid 5px green;
+    display:flex;
+    justify-content:space-between;
+    padding:0 2rem;
 
+
+}
+
+header nav ul li {
+    list-style:none;
+
+}
 
 /* .header div { */
-    header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -44,12 +67,12 @@ header h2 {
 }
 
 /* .header div ul { */
-    header div u1 {
+header div u1 {
     list-style-type: none;
 }
 
 /* .header div ul li { */
-    header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -91,7 +114,7 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear:both;
+    clear: both;
     float: right;
     width: 20%;
     height: 100%;
