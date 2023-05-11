@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size 1000px
+    font-size: 1000px
     
 }
 
@@ -91,7 +91,7 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear both;
+    clear:both;
     float: right;
     width: 20%;
     height: 100%;
