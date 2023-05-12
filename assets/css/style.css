@@ -9,9 +9,6 @@
     font-size: 1rem;
 }
 
-
-
-
 body {
     background-color: rgb(176, 105, 58);
     border: solid 15px orange;
@@ -116,7 +113,6 @@ p {
     background-color: green;
     width: 100%;
     margin-bottom: 1rem;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
