@@ -24,27 +24,32 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #af9d9d;
     background-color: yellow;
+
     font-size: 1rem
 }
 
+.section-aboutTest {
+    display: flex;
+    flex-direction: row;
+    border: solid 15px red;
+}
 
 
 /* .header h1 { */
 header h1 {
-    border: solid 5px green;
+    background-color: purple;
     display: inline-block;
     font-size: 1rem;
-    background-color: blue;
 }
 
 header nav {
     border: solid 5px green;
     font-size: 1rem;
-    background-color: pink;
+    background-color: purple;
 }
 
 header nav ul {
-    border: solid 5px green;
+    border: 5px green;
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
@@ -99,7 +104,7 @@ p {
 
 .coolSubtitleHere {
     height: 750px;
-    background-color: purple;
+    background-color: yellow;
     width: 100%;
     margin-bottom: 1rem;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -108,9 +113,14 @@ p {
 }
 
 
+.textSideTitle{
+    background-color: yellow;
+
+}
+
 .aboutme {
     height: 500px;
-    background-color: green;
+    background-color: yellow;
     width: 100%;
     margin-bottom: 1rem;
     background-size: cover;
@@ -156,8 +166,8 @@ p {
 }
 
 .contactme {
-    background-color: grey;
-    display:flex  ;
+    background-color: purple;
+    display: flex;
     width: 100%;
     height: 250px;
     border: solid;
